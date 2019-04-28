@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>603a83e7-69ae-4391-a7c3-6db8f4ee56c5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Palindrome.py</StartupFile>
+    <StartupFile>Kadai1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Palindrome.py" />
+    <Compile Include="Kadai2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kadai1.py" />
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
